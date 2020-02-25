@@ -181,10 +181,10 @@ BrainBrowser.SurfaceViewer.modules.views = function(viewer) {
   /**
   * @doc function
   * @name viewer.views:setView
-  * @param {string} view_name The name of the view to change to.
+  * @param {string} view_name The name of the views to change to.
   * @param {string} model_name If more than one model file has been loaded, refer to the appropriate model
   * @description
-  * Change to a given view of a split data set. (**Note:** this is
+  * Change to a given views of a split data set. (**Note:** this is
   * only effective for a split dataset, e.g. two hemispheres of a brain).
   * ```js
   * viewer.setView("lateral");

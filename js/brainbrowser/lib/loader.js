@@ -210,10 +210,11 @@
     * });
     * ```
     */
-    loadColorMapFromURL: function(url, callback, options) {
+    loadColorMapFromURL: function(url, callback, options) {//url = "color-maps/thermal.txt", callback = ƒ loadColorMap(color_map), options = unde
       loader.loadFromURL(url, function(data, filename, options) {
         callback(BrainBrowser.createColorMap(data, options), filename, options);
       }, options);
+      //return data;
     },
 
 

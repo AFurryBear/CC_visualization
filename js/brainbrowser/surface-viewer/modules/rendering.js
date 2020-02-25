@@ -185,7 +185,7 @@ BrainBrowser.SurfaceViewer.modules.rendering = function(viewer) {
   * @doc function
   * @name viewer.rendering:resetView
   * @description
-  * Resets the view of the scene.
+  * Resets the views of the scene.
   * ```js
   * viewer.resetView();
   * ```
